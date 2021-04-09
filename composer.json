@@ -1,0 +1,30 @@
+{
+    "name": "ddelima/dependency-injection",
+    "description": "Depency injection container(DIC) library according to PSR11.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DDelima",
+            "email": "davdelima71@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "phpunit": "vendor\\bin\\phpunit"
+    },
+    "require": {
+        "psr/container": "^2.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DDelima\\DependencyInjection\\": "src/"
+        }        
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DDelima\\DependencyInjection\\Tests\\": "tests/"
+        }        
+    }
+}
