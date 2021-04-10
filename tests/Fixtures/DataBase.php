@@ -9,7 +9,7 @@ namespace DDelima\DependencyInjection\Tests\Fixtures;
  */
 final class DataBase 
 {
-  public function __construct(RouterInterface $router, Foo $foo)
+  public function __construct(RouterInterface $router)
   {
 
   }
