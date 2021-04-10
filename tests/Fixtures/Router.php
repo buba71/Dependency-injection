@@ -14,8 +14,7 @@ final class Router implements RouterInterface
   }
 
   public function call()
-  {
-    
+  {    
   }
 
 }
